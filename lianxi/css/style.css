@@ -1,0 +1,86 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+html,body{
+	width: 100%;
+	height: 100%;
+}
+
+.wrap{
+	width: 100%;
+	height: 100%;
+	flex-direction: column;
+	display: flex;
+}
+
+section{
+	
+	/* flex: 1;*/
+	overflow-x: hidden; 
+	
+}
+.nav{
+	margin-top:50px;
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	display: flex;
+    justify-content: space-around;
+}
+.active{
+	border-bottom: 2px solid #007AFF;;
+}
+.parent{
+	width:100%;
+	display: flex;
+	justify-content: space-around;
+	
+	
+}
+.parent left{
+	height: 48px;
+	flex: 1;
+	background: pink;
+}
+
+.parent left dl dt img{
+	width: 100%;
+}
+
+
+
+
+footer{
+	width: 100%;
+	height: 80px;
+	display: flex;
+	flex-wrap: wrap;
+	
+}
+footer dl{
+	width: 20%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+footer dl dt{
+	flex-wrap: wrap;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
